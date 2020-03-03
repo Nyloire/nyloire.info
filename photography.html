@@ -1,0 +1,153 @@
+<html>
+	<head>
+		<style>
+			header
+			{
+				float:left;
+				display: block;
+			}
+			nav
+			{
+				margin: 20px 20px 30px;
+				color: silver;
+				display: block;
+				text-decoration: none;
+				box-sizing: border-box;
+			}
+			nav ul
+			{
+				padding:0;
+				float: left;
+				margin: 0 45px 30px 0;
+				text-decoration: none;
+			}
+			nav ul li
+			{
+				list-style-type: none;
+				text-decoration: none;
+			}
+			body
+			{
+				margin:10%;
+				background:rgb(10,10,10);
+			}
+			h1
+			{
+				color: silver;
+				text-decoration: none;
+				font-size: 140%;
+				font-family: Lucida Console, Monaco, monospace;
+			}
+			p
+			{
+				color: grey;
+				font-size:100%;
+				font-family: Lucida Console, Monaco, monospace;
+			}
+
+			/*@media all and (max-width: 900px)
+			{
+				.heading_text
+				{
+					font-size: 200%;
+				}
+			}*/
+
+			.imagegrid
+			{
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-gap: 10px;
+				padding-left: 50px;
+				padding-right: 50px
+			}
+			.imagegridHead
+			{
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-gap: 0px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			figcaption
+			{
+				color: grey;
+				font-size:100%;
+				font-family: Lucida Console, Monaco, monospace;
+			}
+			img
+			{
+				width: 100%;
+			}
+
+			a:link
+			{
+				color: silver;
+				text-decoration: none;
+			}
+			a:hover
+			{
+				color: indianred;
+			}
+			a:visited
+			{
+				color: silver;
+			}
+			a:visited:hover
+			{
+				color: indianred;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<div class="imagegridHead">
+				<h1><a style="color:silver;" href="site.html">Nyl Aurilon</a></h1>
+
+				<a href="https://merveilles.town/@nyloire"><img src="media/merveilles_white.svg" style="width:30px;"></a>
+				<a href='https://webring.xxiivv.com/#random' target='_blank'><img src='https://webring.xxiivv.com/icon.white.svg' style="width:30px"></a>
+			</div>
+		</header>
+		
+		<div class="imagegridHead">
+			<nav>
+				<ul>
+					<li><a href="journal.html">journal</a></li>
+					<li><a href="photography.html">photography/</a></li>
+					<li><a href="illustration.html">illustration</a></li>
+					<li><a href="music.html">music</a></li>
+					<li><a href="code.html">code</a></li>
+				</ul>
+				<ul>
+					<li><a href="digital.html">digital</a></li>
+					<li><a href="analog.html">analog</a></li>
+					<li><a href="exhibits.html">exhibits</a></li>
+					<li><a href="prints.html">prints</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<br>
+		
+		<div class="imagegrid">
+			<figure> 
+				<img src="media/photography/digital/IMG_4863.JPG"> <figcaption><a href="digital.html">Digital Photography</a></figcaption>
+			</figure>
+			<figure>
+				<img src="media/photography/analog/img007.jpg"> <figcaption>Film Photography</figcaption>
+			</figure>
+			<figure>
+				<img src="media/photography/img007.jpg"> <figcaption>Exhibits</figcaption>
+			</figure>
+			<figure>
+				<img src="media/photography/prints/IMG_1616.jpg"> <figcaption>Prints</figcaption>
+			</figure>
+		</div>
+	
+		<hr>
+		<footer>
+			<p> <img src="media/nyllogo_.svg" style="width:20px"> | Nyl Aurilon 2020</p>
+		</footer>
+	</body>
+</html>
