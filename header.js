@@ -18,7 +18,7 @@ testDiv.append(linkMerv);
 linkMerv.href = 'https://merveilles.town/@nyloire'
 mervImg = document.createElement('img')
 linkMerv.append(mervImg)
-mervImg.src = 'media/merveilles_white.svg'
+mervImg.src = 'Media/merveilles_white.svg'
 mervImg.style.width = '30px'
 
 linkWebring = document.createElement('a');
